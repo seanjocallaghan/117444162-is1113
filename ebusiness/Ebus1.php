@@ -41,7 +41,7 @@
             <br/>
             
              <label for ="total">
-                Sub Total
+                Total
                 <input type="text" id="total" value="0.00" readonly/>
             </label>
             
