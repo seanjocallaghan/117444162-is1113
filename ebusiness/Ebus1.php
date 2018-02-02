@@ -19,7 +19,7 @@
         <form method="POS1" action="Ebus2.php">
             <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onclick="disablebtnProceed()"/>
-                salesforce @ $100
+                Salesforce @ $100
             </label>
             
             <br/>
