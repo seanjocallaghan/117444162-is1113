@@ -14,18 +14,18 @@
         
         <br/>
         
-        <form method="POST" action="Ebus2.php">
+        <form method="POS1" action="Ebus2.php">
             
             
             <label for="Salesforce">
-                <input type="radio" id="salesforce" name="product" checked onClick"disablebtnProceed()"/>
+                <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
                 Salesforce @ $100
             </label>
             
             <br/>
             
             <label for="aws">
-                <input type="radio" id="aws" name="product" checked onClick"disablebtnProceed()"/>
+                <input type="radio" id="aws" name="product" checked onClick="disablebtnProceed()"/>
                 AWS @ $300
             </label>
             
@@ -34,7 +34,7 @@
             
             <label for ="subtotal">
                 Sub Total
-                <input type="text" id="Subtotal" value="0.00" readonly/>
+                <input type="text" id="subtotal" value="0.00" readonly/>
                 
             </label>
             
@@ -47,7 +47,7 @@
             
             <br/>
             
-            <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+            <button type="submit" id="btnProceed" disabled> Add to Shopping Cart</button>
             
         </form>
          
