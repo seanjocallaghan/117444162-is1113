@@ -26,6 +26,20 @@
             
             <br/>
             
+             <label for="cloud9">
+                <input type="radio" id="cloud9" name="product" onclick="disablebtnProceed()"/>
+                Cloud9 @ $200
+            </label>
+            
+            <br/>
+            
+             <label for="gmail">
+                <input type="radio" id="" name="product"  onclick="disablebtnProceed()"/>
+                Gmail @ $400
+            </label>
+            
+            <br/>
+            
             <label for "aws">
                 <input type="radio" id="aws" name="product" onclick="disablebtnProceed()"/>
                 AWS @ 300$
