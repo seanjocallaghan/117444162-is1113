@@ -1,5 +1,6 @@
 #section1{
     background-color: rgb(238, 0 ,90);
+   
 }
 
 #section2{
@@ -13,4 +14,23 @@
 .section{
     text-align: center;
     color: white;
+    
+}
+
+.image{
+    position:absolute;
+    left:22%;
+    
+    
+
+}
+
+.image img{
+    width:70%;
+}
+
+.container{
+    position: absolute;
+
+    
 }
