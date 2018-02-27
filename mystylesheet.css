@@ -27,6 +27,7 @@ ul{
     padding: 0;
     overflow: hidden;
     background-color: #FFF;
+    font-family: sans-serif
 }
 
 li {
@@ -37,7 +38,7 @@ li a {
     color: black;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    text-decoration: none
 }
 
 
@@ -62,3 +63,27 @@ li a:hover {
 .image img{
     border-radius: 50%;
 }
+
+.button{ background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+td {
+    background-color: white;
+    text-align: center
+}
+
+p.sansserif {
+    font-family: Arial, Helvetica, sans-serif
