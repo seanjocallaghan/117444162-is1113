@@ -34,7 +34,7 @@
             <br/>
             
              <label for="gmail">
-                <input type="radio" id="" name="product"  onclick="disablebtnProceed()"/>
+                <input type="radio" id="gmail" name="product"  onclick="disablebtnProceed()"/>
                 Gmail @ $400
             </label>
             
@@ -52,12 +52,28 @@
                 Sub Total
                 <input type="text" id="subtotal" value="0.00" readonly/>
             </label>
+            
+            <br/>
+            <br/>
+            
+            <label for="discount">
+                Discount @ 5%
+                <input type="text" id="discount" value="0.00" readonly/>
+            </label>
+            
+            <br/>
+            <br/>
+            
+            <label for="vat">
+                VAT @ 10%
+                <input type="text" id="vat" value="0.00" readonly/>
+            </label>
              
              <br/>
              
              <label for="total">
                  Total
-                 <input type="text" id="total" value="0.00" readonly/>
+                 <input type="text" id="total" name="total" value="0.00" readonly/>
              </label>
              
         <br/>
