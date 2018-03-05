@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Select Product</title>
-        <link rel="stylesheet" href="mystylesheet.css" type="text/css">
+        <link rel="stylesheet" href="busstylesheet.css" type="text/css">
         
         
         <!--JQuery-->
@@ -14,7 +14,7 @@
     
     <body>
         
-        <h4>Select a Product</h4>
+        <h1 style="background-color:white;" class="mainheading"> Select a Product </h1>
         
         <br/>
         

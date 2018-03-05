@@ -8,7 +8,7 @@ body,html{
     height:100%;
 }
 body{
-    background-image:url("https://png.pngtree.com/thumb_back/fw800/back_pic/00/05/08/245625e1b3a6203.jpg");
+    background-image:url("http://caffeinerobot.com/wp-content/uploads/layerslider/Official-Slider/cloudy_sky_background_by_goblinengineer-d5obh26.png-1024x552.jpeg");
     background-size: cover;
     background-repeat:no-repeat; 
     height: 100%;
@@ -43,7 +43,7 @@ li a {
 
 
 li a:hover {
-    background-color: #483;
+    background-color: #14bae0;
 }
 
 .container{

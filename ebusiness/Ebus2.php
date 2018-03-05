@@ -5,8 +5,10 @@ session_start()
 <!DOCTYPE html>
 <html>
     <head>
+           <title> Enter Details</title>
+        <link rel="stylesheet" href="busstylesheet.css" type="text/css">
         
-        <title> Enter Details</title>
+      
         
         <script type="text/javascript" src="ebus2_validator.js"></script>
         <!--jQuery-->
@@ -26,18 +28,23 @@ session_start()
                 </label>
                 
                 <input type="text" id="name" name="name" placeholder="your name">
+                
+                <br/>
                     
                 <label for="email">
                      E-mail 
                 </label>
                 
                 <input type="email" id="email" name="email" placeholder="your email address">
+                
+                <br/>
                     
                 <label for="pin">
                      PIN 
                 </label>
                 
                 <input type="password" id="pin" placeholder="Card Pin" maxlength="4">
+                <br/>
                     
                 <button type="Submit" id="btnPurchase" disabled> 
                     Proceed with Purchase 

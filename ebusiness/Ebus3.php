@@ -7,7 +7,7 @@ session_start()
     <head>
         <title>Receipt</title>
         
-        <link rel="stylesheet" href="Ebus.css" type="text/css"/>
+        <link rel="stylesheet" href="busstylesheet.css" type="text/css">
     </head>
     
     <body>
