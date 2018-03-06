@@ -1,10 +1,18 @@
 #section1{
-    background-color: rgb(238, 0 ,90);
+    background-image:url("https://img00.deviantart.net/1925/i/2015/338/f/6/cloud9_desktop_wallpaper_by_elbarnzo-d9ixpld.png");
+     background-size: cover;
+    background-repeat:no-repeat; 
+    height: 100%;
+    background-position: center;
+    
    
 }
 
 #section2{
-    background-color: rgb(44, 62, 80);
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Google_Drive_Logo.svg/1184px-Google_Drive_Logo.svg.png");
+    background-repeat:no-repeat; 
+    height: 100%;
+    background-position: center;
 }
 
 #section3{
@@ -29,8 +37,11 @@
     width:40%;
 }
 
-.container{
+
+#container1{
     position: absolute;
+    top:60%;
+}
+    
 
     
-}
