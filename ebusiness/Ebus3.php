@@ -11,7 +11,8 @@ session_start()
     </head>
     
     <body>
-        <h4 class="ebus3_heading">Purchase Receipt</h4>
+        <div class="container">
+        <h2 class="ebus3_heading">Purchase Receipt</h2>
         
         <?php  
         // Set session variables
@@ -26,6 +27,7 @@ session_start()
             ?>
         
         <br/>
+        <br/>
         
             <?php
             // Echo session variables that were set on the previous pages
@@ -33,11 +35,16 @@ session_start()
             ?>
         
         <br/>
+        <br/>
         
             <?php
             // Echo session variables that were set on the previous pages
             echo "Total: " . $_SESSION["total"] . ".";
             ?>
         <br/>
+        <br/>
+        
+        <h4>Thank You for your Business!</h4>
+        </div>
     </body>
 </html>

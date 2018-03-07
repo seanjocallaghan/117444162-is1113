@@ -91,8 +91,7 @@
              
         <br/>
         <br/>
-             
-            <button onclick="calcSub()">Calculate Cost</button>
+        <button type="submit" id="btnProceed" disabled> Add to Shopping Cart</button>
         <a role="button" href="Ebus1.php">Clear Choice</a>
              
         </form>
@@ -100,7 +99,7 @@
        <br/>
        
        
-        <button type="submit" id="btnProceed" disabled> Add to Shopping Cart</button>
+        <button onclick="calcSub()">Calculate Cost</button>
         </body>
     
     

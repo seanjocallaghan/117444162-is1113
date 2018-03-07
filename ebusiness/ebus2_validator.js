@@ -25,7 +25,7 @@ function validateDetails_2(){
     email = document.getElementById("email").value;
     
     if (email == ""){
-        alert("please enter an email.")
+        alert("Please enter an email.")
     }
     else if (validateEmail(email) == false){
         alert("Please enter a valid Email ID");
