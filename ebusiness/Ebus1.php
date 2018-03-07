@@ -14,9 +14,21 @@
     
     <body>
         
-        <h1 style="background-color:white;" class="mainheading"> Select a Product </h1>
+         <h1 style="background-color:white;" class="mainheading"> Shop </h1>
+        </br>
+        <ul>
+           <li> <a class="active" href="Homepage"> Home </a></li>
+           <li> <a class="active" href="ebusiness/business.html"> Business Home </a></li>
+           <li> <a class="active" href="info.html"> About Us </a></li>
+           
         
-        <br/>
+        
+       </ul>
+       
+       <br/>
+       
+       <h2>Please Select a Product</h2>
+       <br/>
         
         <form method="POS1" action="Ebus2.php">
             <label for="salesforce">
@@ -25,12 +37,13 @@
             </label>
             
             <br/>
+            <br/>
             
              <label for="cloud9">
                 <input type="radio" id="cloud9" name="product" onclick="disablebtnProceed()"/>
                 Cloud9 @ $200
             </label>
-            
+            <br/>
             <br/>
             
              <label for="gmail">
@@ -39,7 +52,7 @@
             </label>
             
             <br/>
-            
+            <br/>
             <label for "aws">
                 <input type="radio" id="aws" name="product" onclick="disablebtnProceed()"/>
                 AWS @ 300$
@@ -50,7 +63,7 @@
             
             <label for="subtotal">
                 Sub Total
-                <input type="text" id="subtotal" value="0.00" readonly/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="subtotal" value="0.00" readonly/>
             </label>
             
             <br/>
@@ -66,27 +79,28 @@
             
             <label for="vat">
                 VAT @ 10%
-                <input type="text" id="vat" value="0.00" readonly/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="vat" value="0.00" readonly/>
             </label>
              
              <br/>
-             
+             <br/>
              <label for="total">
                  Total
-                 <input type="text" id="total" name="total" value="0.00" readonly/>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="total" name="total" value="0.00" readonly/>
              </label>
              
         <br/>
+        <br/>
              
-            <button type="submit" id="btnProceed" disabled> Add to Shopping Cart</button>
+            <button onclick="calcSub()">Calculate Cost</button>
+        <a role="button" href="Ebus1.php">Clear Choice</a>
              
         </form>
         
        <br/>
        
-        <button onclick="calcSub()">Calculate Cost</button>
-        <a role="button" href="Ebus1.php">Clear Choice</a>
        
+        <button type="submit" id="btnProceed" disabled> Add to Shopping Cart</button>
         </body>
     
     

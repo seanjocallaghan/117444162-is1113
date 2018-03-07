@@ -1,10 +1,7 @@
 .mainheading{
     text-align: center;
-    background-image:url("https://speckyboy.com/wp-content/uploads/2010/09/cloud-computing-heading.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 10%;
-    background-position: top;
+    background-color: white;
+    
     
 }
 body,html{
@@ -31,7 +28,7 @@ ul{
     padding: 0;
     overflow: hidden;
     background-color: white;
-    background-image:url("http://www.themesltd.com/headers2/happy_hot_air_balloons.png")
+    
 }
 
 li {
@@ -48,5 +45,10 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #14bae0;
+    
+}
+
+font{
+    size:50px;
     
 }

@@ -9,14 +9,21 @@
 }
 
 #section2{
-    background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Google_Drive_Logo.svg/1184px-Google_Drive_Logo.svg.png");
+    background-image:url("https://www.wired.com/wp-content/uploads/2016/04/google-drive-lead.jpg");
     background-repeat:no-repeat; 
     height: 100%;
     background-position: center;
+    background-size: cover;
+    color:black;
 }
 
 #section3{
-    background-color: rgb(51, 153, 204);
+    background-image:url("https://lh3.googleusercontent.com/D3hzv4wY6iccKs8D89DxB4nufM3LMBpOp3e7gZvVKSalsIPgLhuVp9cDDEK4zes0ldk=w300");
+        background-repeat:no-repeat; 
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    color:black;
 }
 
 .section{
@@ -43,5 +50,13 @@
     top:60%;
 }
     
-
-    
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
