@@ -45,6 +45,10 @@ session_start()
         <br/>
         
         <h4>Thank You for your Business!</h4>
+                 <br/>
+        <a href="../homepage.html" class="btn btn-success">Home</a>
         </div>
+        
+
     </body>
 </html>

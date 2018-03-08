@@ -1,3 +1,7 @@
+<?php
+//start the session
+session_start();
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -30,7 +34,7 @@
        <h2>Please Select a Product</h2>
        <br/>
         
-        <form method="POS1" action="Ebus2.php">
+        <form method="POST" action="Ebus2.php">
             <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onclick="disablebtnProceed()"/>
                 Salesforce @ $100
@@ -100,7 +104,9 @@
        
        
         <button onclick="calcSub()">Calculate Cost</button>
+        
+         
         </body>
     
-    
+
 </html>
