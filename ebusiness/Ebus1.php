@@ -3,6 +3,7 @@
 session_start();
 ?>
 <!DOCTYPE html>
+<!--starting the session-->
 <html>
     <head>
         <title>Select Product</title>
@@ -42,7 +43,6 @@ session_start();
             
             <br/>
             <br/>
-            
              <label for="cloud9">
                 <input type="radio" id="cloud9" name="product" onclick="disablebtnProceed()"/>
                 Cloud9 @ $200
@@ -64,7 +64,7 @@ session_start();
             
             <br/>
             <br/>
-            
+            <!--setting values-->
             <label for="subtotal">
                 Sub Total
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="subtotal" value="0.00" readonly/>
@@ -102,7 +102,7 @@ session_start();
         
        <br/>
        
-       
+       <!--formatting button-->
         <button onclick="calcSub()">Calculate Cost</button>
         
          
