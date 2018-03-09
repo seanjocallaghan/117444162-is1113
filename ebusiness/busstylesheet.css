@@ -53,9 +53,9 @@ font{
     
 }
 .container{
+    border:1px solid black;
     background-color: white;
     border-color: black;
-    border-width: 3px;
     position: absolute;
     left:30%;
     width:40%;
